@@ -11,6 +11,7 @@
   inputs.src-nimage-master.ref   = "refs/heads/master";
   inputs.src-nimage-master.owner = "ethosa";
   inputs.src-nimage-master.repo  = "nimage";
+  inputs.src-nimage-master.dir   = "";
   inputs.src-nimage-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
