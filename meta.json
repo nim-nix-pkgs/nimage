@@ -7,8 +7,37 @@
   "license": "MIT",
   "web": "https://github.com/ethosa/nimage",
   "refs": [
-    "fatal: unable to access 'https://github.com/ethosa/nimage/': Could not resolve host: github.com",
+    "refs/heads/master",
     ""
   ],
-  "heads": []
+  "heads": [
+    {
+      "name": "nimage",
+      "version": "0.0.5",
+      "author": "Ethosa",
+      "desc": "The image management library written in Nim.",
+      "license": "MIT",
+      "skipDirs": [],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 1.0.0",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "1.0.0"
+          }
+        }
+      ],
+      "bin": [],
+      "binDir": "",
+      "srcDir": "scr",
+      "backend": "c",
+      "ref": "refs/heads/master"
+    }
+  ]
 }
